@@ -3,7 +3,7 @@ public class Main {
         HandleCSV fileImport = new HandleCSV();
 
         try {
-            fileImport.readFile("../interview-master/orders.csv");
+            fileImport.readFile("./interview-master/orders.csv");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
